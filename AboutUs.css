@@ -1,0 +1,142 @@
+
+
+body{
+    top: 0;
+    box-sizing: border-box;
+    background-color: rgb(235, 235, 235);
+}
+
+
+.header{
+    height: fit-content;
+    width: 100%;
+    box-shadow: 2px 3px 10px 0 #bababa;
+    
+}
+
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 1px solid rgb(214, 211, 211); */
+    background-color: #ffffff;
+    box-shadow: 2px 3px 8px rgb(193, 192, 192);
+    gap: 350px;
+    position:fixed;
+    top: 0;
+}
+
+
+.about-site{
+    height: fit-content;
+    width: 1200px;
+    margin-top: 200px;
+    margin-left: 80px;
+    font-family: sans-serif;
+}
+
+.about-site>h1
+{
+    text-align: center;
+    font-size: 2.8rem;
+    margin-bottom: 100px;
+}
+
+.about-site .short-description{
+  margin-bottom: 50px;
+}
+
+
+.college-project h4{
+    color: red;
+    font-style: italic;
+}
+
+
+.about-developer{
+    height: fit-content;
+    width: 1200px;
+    margin-top: 80px;
+    margin-left: 80px;
+    font-family: sans-serif;
+}
+
+.about-developer h1{
+    margin-bottom: 40px;
+}
+
+#find_me{
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+
+.container-1{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.container-1>.information-container{
+    height: fit-content;
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+ .signin-container{
+    height: 300px;
+    width: max-content;
+ } 
+
+ .signin-container>h1{
+    font-size: 2.6rem;
+    margin: 20px;
+ }
+
+
+ .signin-container>span>a>img{
+    height: 38px;
+    width: 40px;
+    margin-left: 40px;
+    margin-top: 20px;
+ }
+
+ .signin-container>span>a>button{
+    height: 43px;
+    width: 80px;
+    font-family: sans-serif;
+    font-size: medium;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin-left: 0;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+ }
+
+
+ .signin-container>span>a>button:hover{
+    background-color: black;
+    cursor: pointer;
+    color: white;
+ }
+
+ footer{
+    text-align: center;
+ }
+
+ footer>.footer-base{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: medium;
+ }
+
+ .footer-base>span>a{
+    text-decoration: none;
+ }

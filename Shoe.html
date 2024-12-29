@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product.in - Shoes</title>
+    <link rel="icon" href="/product.ico">
+    <link rel="stylesheet" href="/Shoe.css">
+</head>
+
+<body>
+    <div class="header">
+        <header>
+            <span><a href="#"><img src="/image/product.svg" height="100" width="300" alt="product logo"></a></span>
+        </header>
+        <nav>
+            <select title="Select" name="clothes" id="cloth">
+                <option value="male">Men</option>
+                <option value="">Women</option>
+                <option value="">Kids</option>
+                <option value="">Old fashion</option>
+                <option value="">Newly Arrived</option>
+                <option value="">Budget only</option>
+                <option value="">Classics</option>
+            </select>
+            <a href="/Location.html">Location <img src="/image/icons8-location-50.png" alt="location icon" height="18" width="18"></a>
+            <a id="cart" href="/Cart.html"><img src="image/icons8-cart-50.png" height="33" width="37"> <br> <span><div id="box"><p id="number">0</p></div></span></a>
+            <a href="/Help.html">Help?</a>
+            <!-- <a href="/payment.html">Payment</a> -->
+            <a href="/Login.html"><button id="login">Login</button></a>
+        </nav>
+    </div>
+
+
+    <div class="top">
+        <h1>Find Your Foot Wear 👟</h1>
+    </div>
+
+    <div class="div-search-section">
+        <section>
+            <input id="searchShoe" type="text" name="shoe" value="" placeholder="Search Your Footwear">
+            <button id="search" onclick="search_shoe()">Search 🔍</button>
+        </section>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <hr>
+    <h1 id="bestinourStore">Best on Our Store !!!</h1>
+    <div class="slideshow">
+
+        <div class="shoe-1">
+            <div id="best" class="shoe-img-1">
+                <img src="/shoe-photo/domino-studio-164_6wVEHfI-unsplash.jpg" alt="shirt">
+            </div>
+            <h3>Sepcial offer !!!</h3>
+            <h1>10% off</h1>
+            <span><button id="addCart" class="adidas" onclick="Add_to_Cart()">Add to Cart</button><span>
+        </div>
+        <div class="shoe-2">
+            <div id="best" class="cloth1-img-1">
+                <img src="/shoe-photo/shoe.jpg" alt="shirt">
+            </div>
+            <h3>Sepcial offer !!!</h3>
+            <h1>10% off</h1>
+            <span><button id="addCart" class="adidas" onclick="Add_to_Cart()">Add to Cart</button><span>
+        </div>
+        <div class="shoe-3">
+            <div id="best" class="cloth1-img-1">
+                <img src="shoe-photo/shoe.webp" alt="shirt">
+            </div>
+            <h3>Sepcial offer !!!</h3>
+            <h1>10% off</h1>
+            <span><button id="addCart" class="adidas" onclick="Add_to_Cart()">Add to Cart</button><span>
+        </div>
+        <div class="shoe-4">
+            <div id="best" class="cloth1-img-1">
+                <img src="shoe-photo/sniker.jpg" alt="shirt">
+            </div>
+            <h3>Sepcial offer !!!</h3>
+            <h1>10% off</h1>
+            <span><button id="addCart" class="adidas" onclick="Add_to_Cart()">Add to Cart</button><span>
+        </div>
+    </div>
+
+<h1 id="special-addition">Special Addition Shoe</h1>
+
+    <div class="container-3">
+        <span><div class="cont3-left">
+              <h3>Sport Arrival</h3>
+              <h1>Your Ticket</h1>
+              <h1>With New Nike</h1>
+              <h1>preditor 250X</h1>
+              <p>Be a showstopper & show ‘em how it’s done!Go on, flaunt your</p>
+              <p>swag with the all-new Nike 725 & get ready to become the</p>
+              <p>pioneer of unrivaled style.Crafted for a comfortable move & a</p>
+              <p>confident lifestyle, it’s time to slay with your best foot forward!</p>
+              <a href="#"><button id="shop-shoe">Shop</button></a>
+        </div></span>
+        <span><div class="cont3-right">
+             <img src="image/domino-studio-164_6wVEHfI-unsplash.jpg" alt="Avilion 250X shoe">
+        </div></span>
+   </div>
+
+
+<h1 id="top-brand">Top Brands</h1>
+
+
+<div class="slideshow">
+
+    <div class="shoe-1">
+        <div id="best" class="shoe-img-1">
+            <img src="shoe-photo/shoe.webp" alt="shirt">
+        </div>
+        <h3>Sepcial offer !!!</h3>
+        <h1>10% off</h1>
+        <span><button id="addCart" class="adidas" onclick="Add_to_Cart()">Add to Cart</button><span>
+    </div>
+    <div class="shoe-2">
+        <div id="best" class="cloth1-img-1">
+            <img src="shoe-photo/sniker.jpg" alt="shirt">
+        </div>
+        <h3>Sepcial offer !!!</h3>
+        <h1>10% off</h1>
+        <span><button id="addCart" class="adidas" onclick="Add_to_Cart()">Add to Cart</button><span>
+    </div>
+    <div class="shoe-3">
+        <div id="best" class="cloth1-img-1">
+            <img src="shoe-photo/white sniker.jpg" alt="shirt">
+        </div>
+        <h3>Sepcial offer !!!</h3>
+        <h1>10% off</h1>
+        <span><button id="addCart" class="adidas" onclick="Add_to_Cart()">Add to Cart</button><span>
+    </div>
+    <div class="shoe-4">
+        <div id="best" class="cloth1-img-1">
+            <img src="shoe-photo/sniker.jpg" alt="shirt">
+        </div>
+        <h3>Sepcial offer !!!</h3>
+        <h1>10% off</h1>
+        <span><button id="addCart" class="adidas" onclick="Add_to_Cart()">Add to Cart</button><span>
+    </div>
+</div>
+
+    <br>
+
+
+    <h2 id="about">ABOUT</h2>
+    <div class="container-2">
+        <div class="cont-1">
+            <h2>Best shoe selling store</h2>
+            <br>
+            <h2>SINCE 1980 A.D</h2>
+            <button>Register</button>
+        </div>
+        <div class="cont-2">
+            <h2>BEST SELLING SHOES</h2>
+            <ol>
+                <li><span><b>ADIDAS</b></span></li>
+                <br>
+                <li><span><b>NIKE</b></span></li>
+                <br>
+                <li><span><b>PUMA</b></span></li>
+                <br>
+                <li><span><b>GOLDSTAR</b></span></li>
+                <br>
+                <li><span><b>JORDAN</b></span></li>
+            </ol>
+        </div>
+    </div>
+    <div class="image-section">
+        <h1>OUR STORE PREVIEW</h1>
+        <img src="shoe-photo/shoe store.avif">
+    </div>
+
+    <div class="container-2-register">
+        <div class="cont2-div-left">
+            <h1 id="not-our-member">Not Our Memeber ?</h1>
+            <h1>Subscribe and Grab</h1>
+            <h1>5% off in every product.</h1>
+        </div>
+        <div class="cont2-div-right">
+            <input type="text" name="cloth-login" value="" placeholder="Enter Your Email ">
+            <button id="cloth-login" onclick="">Submit</button>
+        </div>
+    </div>
+
+    <div class="goback">
+        <button id="go-back"><a href="#">🔝</a></button>
+  </div>
+
+    <br>
+    <div class="extra-information-container"></div>
+
+    <footer>
+        <div class="footer-details-container">
+            <div class="details-cont-left">
+                <h2>We are Product.In</h2>
+                <ul type="none">
+                    <li><a href="#">About us</a></li>
+                    <li><a href="/Terms_of_use.html">Terms Of Use</a></li>
+                    <li><a href="#">Customer Service</a></li>
+                </ul>
+            </div>
+            <div class="details-cont-middle">
+                <h2>Accout</h2>
+                <ul type="none">
+                    <li><a href="/Login.html">Login</a></li>
+                    <li><a href="/CreateAccount.html">Create Account</a></li>
+                    <li><a href="#">Sign up</a></li>
+                </ul>
+            </div>
+            <div class="details-cont-right">
+                <h1>You can find us on</h1>
+                <h2>Email : www.product.in.com.np</h2>
+                <ul>
+                    <span><a href="https://www.facebook.com"><img id="img" src="image/icons8-facebook-48.png"
+                                alt="facebook"></a></span>
+                    <span><a href="https://www.instagram.com"><img id="img" src="image/icons8-instagram-48.png"
+                                alt="Instagram"></a></span>
+                    <span><a href="https://www.twitter.com"><img id="img" src="image/icons8-twitter-48.png"
+                                alt="Twitter"></a></span>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="footer-terms_cond-details">
+        
+            <p>&copy;2024 Designer Brands.All Rights Reserved.</p>
+            <span><a href="/Terms_of_use.html">Private policy</a></span>
+            <span><a href="/Location.html">Location</a></span>
+        </div>
+    </footer>
+</body>
+<script src="/Shoe.js"></script>
+</html>

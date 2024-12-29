@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothes - Products.in</title>
+</head>
+<link rel="icon" href="product.ico">
+<link rel="stylesheet" href="/Clothes.css">
+
+<body>
+    <div class="header">
+        <header>
+            <span><a href="#"><img src="/image/product.svg" height="100" width="300" alt="product logo"></a></span>
+        </header>
+        <nav>
+            <select title="Select" name="clothes" id="cloth">
+                <option value="male">Men</option>
+                <option value="">Women</option>
+                <option value="">Kids</option>
+                <option value="">Old fashion</option>
+                <option value="">Newly Arrived</option>
+                <option value="">Budget only</option>
+                <option value="">Classics</option>
+            </select>
+            <a href="/Location.html">Location <img src="/image/icons8-location-50.png" alt="location icon" height="18" width="18"></a>
+            <a id="cart" href="/Cart.html"><img src="image/icons8-cart-50.png" height="33" width="37"> <br> <span><div id="box"><p id="number">0</p></div></span></a>
+            <a href="/Help.html">Help?</a>
+            <!-- <a href="/payment.html">Payment</a> -->
+            <a href="/Login.html"><button id="login">Login</button></a>
+        </nav>
+    </div>
+
+
+    <div class="top">
+        <h1>Find Your Fashion 👕</h1>
+    </div>
+
+    <div class="div-search-section">
+        <section>
+            <input id="search_cloth" type="text" name="cloth" value="" placeholder="Search Your Fashion">
+            <button id="search" onclick="search_cloth()">Search 🔍</button>
+        </section>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <hr>
+    <h1 id="bestinourStore">Best on Our Store !!!</h1>
+    <div class="slideshow">
+
+        <div class="cloth-1">
+            <div id="best" class="cloth1-img-1">
+                <img src="/image/black tshirt.webp" alt="black t-shirt">
+            </div>
+            <h3>Sepcial offer !!!</h3>
+            <h1>10% off</h1>
+            <span><button id="addCart" class="adidas" onclick="Add_to_Cart()">Add to Cart</button><span>
+        </div>
+        <div class="cloth-2">
+            <div id="best" class="cloth1-img-1">
+                <img src="/clothes/baggy pants.jpg" alt="baggy pants">
+            </div>
+            <h3>Sepcial offer !!!</h3>
+            <h1>25% off</h1>
+            <span><button id="addCart" class="adidas" onclick="Add_to_Cart()">Add to Cart</button><span>
+        </div>
+        <div class="cloth-3">
+            <div id="best" class="cloth1-img-1">
+                <img src="/clothes/brown windsitter.jpg" alt="windsitter">
+            </div>
+            <h3>Sepcial offer !!!</h3>
+            <h1>5% off</h1>
+            <span><button id="addCart" class="adidas" onclick="Add_to_Cart()">Add to Cart</button><span>
+        </div>
+        <div class="cloth-4">
+            <div id="best" class="cloth1-img-1">
+                <img src="/clothes/jeans jacket.jpg" alt="Jeans jacket">
+            </div>
+            <h3>Sepcial offer !!!</h3>
+            <h1>20% off</h1>
+            <span><button id="addCart" class="adidas" onclick="Add_to_Cart()">Add to Cart</button><span>
+        </div>
+    </div>
+
+
+    <div class="slideshow">
+
+        <div class="cloth-1">
+            <div id="best" class="cloth1-img-1">
+                <img src="/clothes/plain white shirt.jpg" alt="white shirt">
+            </div>
+            <h3>Sepcial offer !!!</h3>
+            <h1>10% off</h1>
+            <span><button id="addCart" class="adidas" onclick="Add_to_Cart()">Add to Cart</button><span>
+        </div>
+        <div class="cloth-2">
+            <div id="best" class="cloth1-img-1">
+                <img src="/clothes/girl inner.jpg" alt="girl inner">
+            </div>
+            <h3>Sepcial offer !!!</h3>
+            <h1>10% off</h1>
+            <span><button id="addCart" class="adidas" onclick="Add_to_Cart()">Add to Cart</button><span>
+        </div>
+        <div class="cloth-3">
+            <div id="best" class="cloth1-img-1">
+                <img src="clothes/shirt.jpg" alt="shirt">
+            </div>
+            <h3>Sepcial offer !!!</h3>
+            <h1>10% off</h1>
+            <span><button id="addCart" class="adidas" onclick="Add_to_Cart()">Add to Cart</button><span>
+        </div>
+        <div class="cloth-4">
+            <div id="best" class="cloth1-img-1">
+                <img src="clothes/white cap.jpg" alt="white cap">
+            </div>
+            <h3>Sepcial offer !!!</h3>
+            <h1>10% off</h1>
+            <span><button id="addCart" class="adidas" onclick="Add_to_Cart()">Add to Cart</button><span>
+        </div>
+    </div>
+
+
+    <h1 id="winter-special">Winter Special !!!</h1>
+    <div class="container-1">
+        <span>
+            <div class="cont1-left">
+                <h1>Our Store Winter Special</h1>
+                <h1>5% on this T-Shirt</h1>
+                <p>This winter upgrade your style</p>
+                <p>to the next level .</p>
+                <a href="#"><button id="winter_special_id">Shop</button></a>
+            </div>
+        </span>
+        <span>
+            <div class="cont1-right">
+                <img src="/image/black tshirt.webp" alt="Winter cloth">
+            </div>
+        </span>
+    </div>
+
+<!--kids section-->
+
+<h1 id="kids-section">Kids Section</h1>
+    <div class="kids-slideshow">
+        <div class="cloth-1">
+            <div id="best" class="cloth1-img-1">
+                <img src="clothes/plain white shirt.jpg" alt="shirt">
+            </div>
+            <h3>Sepcial offer !!!</h3>
+            <h1>0% off</h1>
+            <span><button id="addCart" class="adidas" onclick="Add_to_Cart()">Add to Cart</button><span>
+        </div>
+        <div class="cloth-2">
+            <div id="best" class="cloth1-img-1">
+                <img src="/clothes/kids-1.webp" alt="shirt">
+            </div>
+            <h3>Sepcial offer !!!</h3>
+            <h1>0% off</h1>
+            <span><button id="addCart" class="adidas" onclick="Add_to_Cart()">Add to Cart</button><span></span>
+        </div>
+        <div class="cloth-3">
+            <div id="best" class="cloth1-img-1">
+                <img src="/clothes/kids-2.jpg" alt="shirt">
+            </div>
+            <h3>Sepcial offer !!!</h3>
+            <h1>10% off</h1>
+            <span><button id="addCart" class="adidas" onclick="Add_to_Cart()">Add to Cart</button><span></span>
+        </div>
+        <div class="cloth-4">
+            <div id="best" class="cloth1-img-1">
+                <img src="clothes/kids-3.webp" alt="shirt">
+            </div>
+            <h3>Sepcial offer !!!</h3>
+            <h1>10% off</h1>
+            <span><button id="addCart" class="adidas" onclick="Add_to_Cart()">Add to Cart</button><span></span>
+        </div>
+    </div>
+
+ <h1 id="Men-section">Men Fashion</h1>
+    <div class="Men-slideshow">
+        <div class="cloth-1">
+            <div id="best" class="cloth1-img-1">
+                <img src="image/black tshirt.webp" alt="shirt">
+            </div>
+            <h3>Sepcial offer !!!</h3>
+            <h1>10% off</h1>
+            <span><button id="addCart" class="adidas" onclick="Add_to_Cart()">Add to Cart</button><span></span>
+        </div>
+        <div class="cloth-2">
+            <div id="best" class="cloth1-img-1">
+                <img src="clothes/white tshirt.jpg" alt="white t-shirt">
+            </div>
+            <h3>Sepcial offer !!!</h3>
+            <h1>10% off</h1>
+            <span><button id="addCart" class="adidas" onclick="Add_to_Cart()">Add to Cart</button><span></span>
+        </div>
+        <div class="cloth-3">
+            <div id="best" class="cloth1-img-1">
+                <img src="clothes/brown windsitter.jpg" alt="shirt">
+            </div>
+            <h3>Sepcial offer !!!</h3>
+            <h1>10% off</h1>
+            <span><button id="addCart" class="adidas" onclick="Add_to_Cart()">Add to Cart</button><span></span>
+        </div>
+        <div class="cloth-4">
+            <div id="best" class="cloth1-img-1">
+                <img src="/clothes/jeans jacket.jpg" alt="jeans shirt">
+            </div>
+            <h3>Sepcial offer !!!</h3>
+            <h1>10% off</h1>
+            <span><button id="addCart" class="adidas" onclick="Add_to_Cart()">Add to Cart</button><span></span>
+        </div>
+    </div>
+
+
+    <h1 id="Women-section">Women Fashion</h1>
+    <div class="Women-slideshow">
+        <div class="cloth-1">
+            <div id="best" class="cloth1-img-1">
+                <img src="/clothes/plain white shirt.jpg" alt="shirt">
+            </div>
+            <h3>Sepcial offer !!!</h3>
+            <h1>10% off</h1>
+            <span><button id="addCart" class="adidas" onclick="Add_to_Cart()">Add to Cart</button><span></span>
+        </div>
+        <div class="cloth-2">
+            <div id="best" class="cloth1-img-1">
+                <img src="clothes/white onepiece.jpg" alt="onepiece">
+            </div>
+            <h3>Sepcial offer !!!</h3>
+            <h1>10% off</h1>
+            <span><button id="addCart" class="adidas" onclick="Add_to_Cart()">Add to Cart</button><span></span>
+        </div>
+        <div class="cloth-3">
+            <div id="best" class="cloth1-img-1">
+                <img src="/clothes/white girl vest.jpg" alt="shirt">
+            </div>
+            <h3>Sepcial offer !!!</h3>
+            <h1>10% off</h1>
+            <span><button id="addCart" class="adidas" onclick="Add_to_Cart()">Add to Cart</button><span></span>
+        </div>
+        <div class="cloth-4">
+            <div id="best" class="cloth1-img-1">
+                <img src="/clothes/baggy pants.jpg" alt="shirt">
+            </div>
+            <h3>Sepcial offer !!!</h3>
+            <h1>10% off</h1>
+            <span><button id="addCart" class="adidas" onclick="Add_to_Cart()">Add to Cart</button><span></span>
+        </div>
+    </div>
+
+
+    <div class="container-2-register">
+        <div class="cont2-div-left">
+            <h1 id="not-our-member">Not Our Memeber ?</h1>
+            <h1>Subscribe and Grab</h1>
+            <h1>5% off in every product.</h1>
+        </div>
+        <div class="cont2-div-right">
+            <input type="text" name="cloth-login" value="" placeholder="Enter Your Email ">
+            <button id="cloth-login" onclick="">Submit</button>
+        </div>
+    </div>
+
+    <div class="goback">
+        <button id="go-back"><a href="#">🔝</a></button>
+  </div>
+
+    <br>
+    <div class="extra-information-container"></div>
+
+    <footer>
+        <div class="footer-details-container">
+            <div class="details-cont-left">
+                <h2>We are Product.In</h2>
+                <ul type="none">
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Terms Of Use</a></li>
+                    <li><a href="#"></a>Customer Service</li>
+                </ul>
+            </div>
+            <div class="details-cont-middle">
+                <h2>Accout</h2>
+                <ul type="none">
+                    <li><a href="/Login.html">Login</a></li>
+                    <li><a href="/CreateAccount.html">Create Account</a></li>
+                    <li><a href="#">Sign up</a></li>
+                </ul>
+            </div>
+            <div class="details-cont-right">
+                <h1>You can find us on</h1>
+                <h2>Email : www.product.in.com.np</h2>
+                <ul>
+                    <span><a href="https://www.facebook.com"><img id="img" src="image/icons8-facebook-48.png"
+                                alt="facebook"></a></span>
+                    <span><a href="https://www.instagram.com"><img id="img" src="image/icons8-instagram-48.png"
+                                alt="Instagram"></a></span>
+                    <span><a href="https://www.twitter.com"><img id="img" src="image/icons8-twitter-48.png"
+                                alt="Twitter"></a></span>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-terms_cond-details">
+            <p>&copy;2024 Designer Brands.All Rights Reserved.</p>
+            <span><a href="/Terms_of_use.html">Private policy</a></span>
+            <span><a href="/Terms_of_use.html">Terms of Use</a></span>
+            <span><a href="/Location.html">Location</a></span>
+        </div>
+    </footer>
+</body>
+<script src="/Clothes.js"></script>
+</html>

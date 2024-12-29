@@ -1,0 +1,81 @@
+/*typing aanimation to heading */
+
+#heading{
+    animation : type 1.5s steps(15) infinite;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: cursive;
+    border-right: 3px solid black;
+    margin-left: 400px;
+}
+
+h1>span{
+    color: rgb(224, 18, 18);
+    font-size:2.7rem;
+}
+
+@keyframes type {
+    0%{
+        width:0ch;
+    }
+
+    30%{
+        width:8ch
+    }
+
+    100%{
+        width: 17ch;
+    }
+}
+
+
+
+.image-slider{
+    height: 600px;
+    width: 100%;
+    display: flex;
+}
+
+.image-slider .image-1{
+  height: 600px;
+  width: 100%;
+  position: relative;
+  font-family:sans-serif;
+}
+
+.image-slider .image-1 img{
+    height: 100%;
+    width: 100%;
+}
+
+.image-slider .image-1 .image-info-1{
+    position: absolute;
+    left: 200px;
+    bottom: 80px;
+}
+
+.image-slider .image-1 .image-info-1 h1{
+    font-size: 2.7rem;
+}
+
+
+.image-slider .image-1 .image-info-1 h2{
+    font-size: 2rem;
+}
+
+#shop>span{
+   color: white;
+   font-family: cursive;
+   animation: typing 1.6s steps(8) infinite;
+   overflow: none;
+   border-left: 2px solid rgb(255, 255, 255);
+   white-space: nowrap;
+   padding-left: 1.2rem;
+}
+
+
+
+
+
+
+

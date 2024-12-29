@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product.in - Login</title>
+    <link rel="icon" href="/product.ico">
+    <link rel="stylesheet" href="/Login.css">
+</head>
+<body>
+    <header>
+        <ul>
+            <li id="image"><img src="/image/product.svg" alt="photo" height="100" width="300"></li>
+            <li id="help"><a href="/Help.html">Help?</a></li>
+            <li id="create-acc"><a href="/CreateAccount.html">Create Account</a></li>
+            <li id="why-acc"><a href="#">Why Account?</a></li>
+        </ul>
+    </header>
+      <div class="container">
+         <div class="left-section">
+             <img src="/image/login image.jpg" alt="login photo">
+         </div>
+         <div class="right-section">
+              <h1>Login</h1>
+              <h2>Hello, Customers!</h2>
+              <h4>Enter your username and password to Login.</h4>
+              <form name="login_form" action="action.php" method="post">
+                   <input id="username" type="text" name="user_name" value="" placeholder="Username">
+                   <br>
+                   <input id="password" type="password" name="user_pass" value="" placeholder="Password">
+                   <br>
+              </form>
+              <button id="btn" class="btn" onclick="clear()">Submit</button>
+              <br>
+              <br>
+              <span>Don't have an Account?</span>
+              <span><a href="/CreateAccount.html">Create an Account</a></span>
+              <p id="try_again"></p>
+         </div>
+        <script src="/Login.js"></script>
+      </div>
+</body>
+</html>

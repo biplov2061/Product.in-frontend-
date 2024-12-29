@@ -1,0 +1,243 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    overflow-x: hidden;
+  }
+  
+  header{
+      height: fit-content;
+      width: 100%;
+      box-shadow: 2px 3px 10px 0 #cdcccc;
+      background-color: white;
+      position: fixed;
+      top: 0;
+      z-index: 1000;
+  }
+  
+  nav{
+      height: 50px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content:center;
+      gap: 180px;
+    }
+
+header>nav>h1{
+    font-family: sans-serif;
+    font-size: 2.5rem;
+}
+
+
+.currently-unavailable{
+    text-align: center;
+    color: red;
+    font-size: 2.5rem;
+    margin-top: 400px;
+}
+
+/* #box{
+    height: 200px;
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin-top: 30px;
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.product-1{
+    height: 150px;
+    width: 60%;
+    border: 1px solid red; 
+} */
+/* 
+.discription{
+    height: fit-content;
+    width: max-content;
+}
+
+.button{
+   display: flex;
+   gap: 10px;
+   align-items: center;
+   justify-content: center;
+}
+
+.button>span>#add-more{
+    height: 30px;
+    width: 80px;  
+    color: green;
+    background-color: white;
+    border: 1px solid green;
+    border-radius: 3px;
+}
+
+.button>span>#payment{
+    height: 30px;
+    width: 80px;
+    background-color:white;
+    color: rgb(35, 26, 216);
+    border: 1px solid rgb(35, 26, 216);
+    border-radius: 3px;
+    opacity: 1;
+}
+
+.button>span>#cancel{
+    height: 30px;
+    width: 80px;
+    background-color: white;
+    color: rgb(255, 4, 17);;
+    border: 1px solid rgb(255, 4, 17);;
+    border-radius: 3px;
+}
+
+
+.button>span>#add-more:hover{
+    cursor: pointer;
+    background-color: green;
+    color: white;
+}
+
+.button>span>#payment:hover{
+    cursor: pointer;
+    background-color: rgb(35, 26, 216);
+    color: white;
+}
+
+.button>span>#cancel:hover{
+    cursor: pointer;
+    background-color: rgb(255, 4, 17);;
+    color: white;
+}
+
+#box-1{
+    height: 200px;
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin-top: 30px;
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#box-2{
+    height: 200px;
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin-top: 30px;
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#box-3{
+    height: 200px;
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin-top: 30px;
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+} */
+
+
+/*footer section*/
+
+
+
+.container-8{
+    height: 530px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+
+}
+
+
+ .signin-container{
+    height: 500px;
+    width: max-content;
+    text-align:center;
+
+ }
+
+ .signin-container>h1{
+    font-size: 2.6rem;
+    margin: 20px;
+ }
+
+ .signin-container>input{
+    height:40px;
+    width: 390px;
+    border: 0.8px solid rgb(174, 172, 172);
+    border-radius: 2px;
+    font-family: sans-serif;
+    font-size: medium;
+    padding-left: 0.5rem;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+ }
+
+
+ .signin-container>span>a>img{
+    height: 38px;
+    width: 40px;
+    margin-left: 40px;
+    margin-top: 20px;
+ }
+
+ .signin-container>span>a>button{
+    height: 43px;
+    width: 80px;
+    font-family: sans-serif;
+    font-size: medium;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin-left: 0;
+    border: 0.8px solid rgb(174, 172, 172);
+    border-radius: 4px;
+ }
+
+
+ .signin-container>span>a>button:hover{
+    background-color: black;
+    cursor: pointer;
+    color: white;
+ }
+ 
+
+ footer{
+    text-align: center;
+    /* background-color: rgb(235, 235, 235) */
+ }
+
+ footer>.footer-base{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 25px;
+    font-size: medium;
+ }
+
+ .footer-base>span>a{
+    text-decoration: none;
+ }
+
+
+
+
+
+
+  

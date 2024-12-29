@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+.header{
+    height: fit-content;
+    width: 100%;
+    box-shadow: 2px 3px 10px 0 #bababa;
+    
+}
+
+header{
+    height: 120px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 1px solid rgb(214, 211, 211); */
+    background-color: #ffffff;
+    box-shadow: 2px 3px 8px rgb(193, 192, 192);
+    gap: 350px;
+    position:fixed;
+    top: 0;
+}
+
+#Location{
+    font-size: 3.1rem;
+    font-weight: 700;
+    margin-top: 240px;
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(79, 84, 86);
+    margin-bottom: 10px;
+}
+
+.location-map{
+    height: 750px;
+    width: 90%;
+    margin-left:100px;
+    margin-top: 80px;
+}
+
+.location-map>iframe{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.container-8{
+    height: 530px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+
+}
+
+
+ .signin-container{
+    height: 500px;
+    width: max-content;
+    text-align:center;
+
+ }
+
+ .signin-container>h1{
+    font-size: 2.6rem;
+    margin: 20px;
+ }
+
+ .signin-container>input{
+    height:40px;
+    width: 390px;
+    border: 0.8px solid rgb(174, 172, 172);
+    border-radius: 2px;
+    font-family: sans-serif;
+    font-size: medium;
+    padding-left: 0.5rem;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+ }
+
+
+ .signin-container>span>a>img{
+    height: 38px;
+    width: 40px;
+    margin-left: 40px;
+    margin-top: 20px;
+ }
+
+ .signin-container>span>a>button{
+    height: 43px;
+    width: 80px;
+    font-family: sans-serif;
+    font-size: medium;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin-left: 0;
+    border: 0.8px solid rgb(174, 172, 172);
+    border-radius: 4px;
+ }
+
+
+ .signin-container>span>a>button:hover{
+    background-color: black;
+    cursor: pointer;
+    color: white;
+ }
+ 
+
+ footer{
+    text-align: center;
+    /* background-color: rgb(235, 235, 235) */
+ }
+
+ footer>.footer-base{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 25px;
+    font-size: medium;
+ }
+
+ .footer-base>span>a{
+    text-decoration: none;
+ }
