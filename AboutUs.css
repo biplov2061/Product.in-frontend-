@@ -31,7 +31,7 @@ header{
 .about-site{
     height: fit-content;
     width: 1200px;
-    margin-top: 200px;
+    margin-top: 180px;
     margin-left: 80px;
     font-family: sans-serif;
 }
@@ -40,7 +40,7 @@ header{
 {
     text-align: center;
     font-size: 2.8rem;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 
 .about-site .short-description{
@@ -51,6 +51,7 @@ header{
 .college-project h4{
     color: red;
     font-style: italic;
+    font-size: large;
 }
 
 
