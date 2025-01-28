@@ -11,15 +11,15 @@
 </head>
 
 <body>
-<div class="header">
+<div class="header" id="header">
     <header>
-        <span><a href="#"><img src="/image/product.svg" height="100" width="300" alt="product logo"></a></span>
+       <h1 class="companyName">Product.In</h1>
         <span>
             <h1 id="heading"><span>Everything</span> is Here !</h1>
         </span>
     </header>
 
-    <nav>
+    <nav class="nav">
      
         <a href="/Clothes.html">Clothes 👕</a>
         <a href="/Shoe.html">Shoes 👟</a>
@@ -28,6 +28,7 @@
         <a id="cart" href="/Cart.html"><img src="image/icons8-cart-50.png" height="33" width="37"> <br> <span><div id="box"><p id="number">0</p></div></span></a>
         <a href="/AboutUs.html">About Us</a>
         <a href="/Login.html"><button id="login">Login</button></a>
+        <button id="mode" class="modeBtn" onclick="changeMode()">🌙</button>
   </nav>
 </div>
 
@@ -43,7 +44,7 @@
    </div>
 
 
-    <div class="container-1">
+    <div class="container-1" id="container-1">
         <div class="intro">
             <h1 id="input-header">Product. Com helps you to find </h1>
             <h1 id="input-header">you your best Fashion.</h1>
@@ -61,7 +62,7 @@
     <br>
 
     <h1 id="shoes">Shoes</h1>
-    <div class="container-2">
+    <div class="container-2" id="container-2">
         <span><div class="shoe-left">
               <img id="img-1" src="/image/matthew-ball-8J0zA88go3o-unsplash.jpg" alt="adidas image">
               <hr>
@@ -93,7 +94,7 @@
     </div>
     <br>
 
-    <div class="container-3">
+    <div class="container-3" id="container-3">
          <span><div class="cont3-left">
                <h3>Sport Arrival</h3>
                <h1>Your Ticket</h1>
@@ -110,8 +111,8 @@
          </div></span>
     </div>
 
-    <h1 id="clothes">Clothes</h1>
-         <div class="clothes">
+    <h1 id="clothes-heading">Clothes</h1>
+         <div class="clothes" id="clothes">
             <span><div class="cloth-left">
                 <img id="img-1" src="image/black tshirt.webp" alt="Gucci image">
                 <hr>

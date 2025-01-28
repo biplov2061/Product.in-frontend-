@@ -7,19 +7,19 @@ body{
     box-sizing: border-box;
 }
 
-.header{
+#header{
     height: fit-content;
     width: 100%;
-    /* box-shadow: 2px 3px 10px 0 #bababa; */
-    
+    text-align: center; 
 }
 
 header{
     margin-bottom: 18px;
+    height: 230px;
     width: 100%;
      display: flex;
-    background-color: #ffffff;
-    gap: 350px;
+     gap: 300px;
+    align-items: center;
     position:static;
     margin-top: 100px;
 }
@@ -45,13 +45,12 @@ nav{
     top: 0;
     height: 85px;
     width: 100%;
-    /* background-color: rgb(255, 252, 252); */
+    background-color: rgb(255, 255, 255);
     box-shadow: 2px 3px 8px rgb(193, 192, 192);
     column-gap: 40px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: white;
     z-index: 1000;
 }
 
@@ -62,9 +61,9 @@ nav>a{
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     font-weight: 450;
-    color: #000000;
    
 }
+
 
 nav>a>button{
     font-size: 1.2rem;
@@ -72,8 +71,8 @@ nav>a>button{
     text-decoration: none;
     font-weight: 300;
     color:  #7d90d4;
+    border: 1px solid  #7d90d4;
     background-color: white;
-    border: 1px solid  #7d90d4;;
     border-radius: 4px;
     height: 38px;
     width: 110px;
@@ -90,13 +89,31 @@ nav>a:hover{
     color: rgb(7, 17, 160);
 }
 
+nav>button{
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-weight: 300;
+    background-color: rgb(0, 0, 0);
+    border: 1.1px solid rgb(11, 11, 11);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
 #heading{
     font-family:sans-serif;
     font-size: 3rem;
     margin-left: 30px;
     margin-right: 0;
-    color: rgb(20, 20, 20);
+    color: rgb(118, 118, 118);
 }
+
+.companyName{
+    font-size: 3.9rem;
+    margin-left: 150px;
+}
+
 
 header>span>a>#login{
     margin-left: 10px;
@@ -117,13 +134,12 @@ header>span>a>#login:hover{
 }
 
 
-.container-1{
+#container-1{
     height: 680px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:  #ffffff;
     gap: 70px;
     align-items: center;
     justify-content: center;
@@ -131,7 +147,7 @@ header>span>a>#login:hover{
     margin-top: 80px;
 }
 
-.container-1>.intro{
+#container-1>.intro{
     height: 450px;
     width: 55%;
     border-radius: 10px;
@@ -140,7 +156,7 @@ header>span>a>#login:hover{
     box-shadow: 3px 3px 10px #777eb5;
 }
 
-.container-1>.side-intro{
+#container-1>.side-intro{
     height: 280px;
     width: 26%;
     border-radius: 10px;
@@ -152,7 +168,7 @@ header>span>a>#login:hover{
 
 }
 
-.container-1>.intro>#input-header{
+#container-1>.intro>#input-header{
     font-family: sans-serif;
     font-size: 2.7rem;
     margin-left: 50px;
@@ -160,7 +176,7 @@ header>span>a>#login:hover{
 
 }
 
-.container-1>.intro>span>#input{
+#container-1>.intro>span>#input{
     height: 48px;
     width: 400px;
     border:1.8px solid #38598b;
@@ -171,7 +187,7 @@ header>span>a>#login:hover{
     margin-top: 40px;
 }
 
-.container-1>.intro>span>#search{
+#container-1>.intro>span>#search{
     height: 50px;
     width: 180px;
     background-color: #38598b;
@@ -182,7 +198,7 @@ header>span>a>#login:hover{
     border: 1.5px solid  #38598b;
 }
 
-.container-1>.intro>span>#search:hover
+#container-1>.intro>span>#search:hover
 {
     background-color:  white;
     color:   #38598b;
@@ -198,19 +214,18 @@ header>span>a>#login:hover{
     text-align: center;
 }
 
-.container-2{
+#container-2{
     height: 680px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:#ffffff;
     gap: 30px;
     padding: 50px;
     margin-top: 80px;
 }
 
-.container-2>span>.shoe-left{
+#container-2>span>.shoe-left{
     height: 580px;
     width: 390px;
     /* border: 1px solid #38598b; */
@@ -225,7 +240,7 @@ header>span>a>#login:hover{
     box-shadow: 3px 3px 10px #777eb5;
 }
 
-.container-2>span>.shoe-middle{
+#container-2>span>.shoe-middle{
     height: 580px;
     width: 390px;
     /* border: 1px solid #38598b; */
@@ -240,7 +255,7 @@ header>span>a>#login:hover{
     box-shadow: 3px 3px 10px #777eb5;
 }
 
-.container-2>span>.shoe-right{
+#container-2>span>.shoe-right{
     height: 580px;
     width: 390px;
     /* border: 1px solid #38598b; */
@@ -255,7 +270,7 @@ header>span>a>#login:hover{
 }
 
 
-.container-2>span>.shoe-right-1{
+#container-2>span>.shoe-right-1{
     height: 580px;
     width: 390px;
     /* border: 1px solid #38598b; */
@@ -398,7 +413,7 @@ header>span>a>#login:hover{
     /*CLOTHES SECTION CSS*/
 
 
-#clothes{
+#clothes-heading{
     font-family: sans-serif;
     font-size: 2.9rem;
     margin-left: 50px;
@@ -406,20 +421,19 @@ header>span>a>#login:hover{
     text-align: center;
 }
 
-.clothes{
+#clothes{
     height: 680px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:  #ffffff;
     margin-top: 110px;
     align-items: center;
     justify-content: space-around;
     padding: 30px;
 }
 
-.clothes>span>.cloth-left{
+#clothes>span>.cloth-left{
     height: 580px;
     width: 380px;
     /* border: 1px solid #38598b; */
@@ -433,7 +447,7 @@ header>span>a>#login:hover{
     box-shadow: 3px 3px 10px #777eb5;
 }
 
-.clothes>span>.cloth-middle-1{
+#clothes>span>.cloth-middle-1{
     height: 580px;
     width: 380px;
     /* border: 1px solid #38598b; */
@@ -447,7 +461,7 @@ header>span>a>#login:hover{
     box-shadow: 3px 3px 10px #777eb5;
 }
 
-.clothes>span>.cloth-middle-2{
+#clothes>span>.cloth-middle-2{
     height: 580px;
     width: 380px;
     /* border: 1px solid #38598b; */
@@ -462,7 +476,7 @@ header>span>a>#login:hover{
     box-shadow: 3px 3px 10px #777eb5;
 }
 
-.clothes>span>.cloth-right{
+#clothes>span>.cloth-right{
     height:580px;
     width: 380px;
     /* border: 1px solid #38598b; */

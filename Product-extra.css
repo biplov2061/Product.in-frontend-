@@ -10,7 +10,7 @@
 }
 
 h1>span{
-    color: rgb(224, 18, 18);
+    color: rgb(246, 48, 48);
     font-size:2.7rem;
 }
 
@@ -72,6 +72,30 @@ h1>span{
    white-space: nowrap;
    padding-left: 1.2rem;
 }
+
+
+
+/*classes defined for light and dark mode toggle*/
+.dark{
+    color: black;
+    background-color: black;
+}
+
+.light{
+    color: black;
+    background-color: white;
+}
+
+.dark_header{
+    color: white;
+    background-color: black;
+}
+
+.light_header{
+    color: black;
+    background-color: white;
+}
+
 
 
 
